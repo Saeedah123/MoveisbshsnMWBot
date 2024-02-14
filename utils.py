@@ -138,9 +138,9 @@ def list_to_str(k):
         return ' '.join(f'{elem}, ' for elem in k)
 
 __repo__ = "https://t.me/ProfessorMWBot"
-__version__ = "ProfessorMWBotᴠ4.5.0"
+__version__ = "@ProfessorMWBot ᴠ4.5.0"
 __license__ = "GNU GENERAL PUBLIC LICENSE V2"
-__copyright__ = "Copyright (C) 2023-present MrProfessor <https://t.me/ProfessorServers>"
+__copyright__ = "Copyright (C) 2024-present MrProfessor <https://t.me/ProfessorServers>"
 
 async def search_gagala(text):
     usr_agent = {
