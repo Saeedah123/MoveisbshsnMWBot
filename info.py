@@ -17,7 +17,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
 WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
-PICS = (environ.get('PICS' ,'https://graph.org/file/01ddfcb1e8203879a63d7.jpg https://graph.org/file/a125497b6b85a1d774394.jpg https://graph.org/file/43d26c54d37f4afb830f7.jpg https://graph.org/file/60c1adffc7cc2015f771c.jpg https://graph.org/file/0f336b0402db3f2a20037.jpg https://graph.org/file/39cc4e15cad4519d8e932.jpg')).split()
+PICS = (environ.get('PICS' ,'https://telegra.ph/file/7ceecc7929d109bef28cc.jpg https://telegra.ph/file/6761099319739a34e8d19.jpg https://telegra.ph/file/0f8f53cd7b2aac656ea29.jpg')).split()
 UPTIME = time.time()
 
 # Admins, Channels & Users
@@ -58,7 +58,7 @@ SHORT_API = environ.get("SHORT_API")
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ProfessorServers')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Ur_support07')
 P_TTI_SHOW_OFF = is_enabled(environ.get('P_TTI_SHOW_OFF', "True"), True)
 PM_IMDB = is_enabled(environ.get('PM_IMDB', "True"), True)
 IMDB = is_enabled(environ.get('IMDB', "True"), True)
